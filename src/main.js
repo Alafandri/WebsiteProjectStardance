@@ -23,7 +23,7 @@ function initUI() {
     </div>
 
     <div id="apod-section" class="apod-container">
-      <p>loading NASA APOD data...</p>
+      <p>loading data...</p>
     </div>
   `;
 
@@ -123,7 +123,7 @@ function fetchAPOD() {
       `;
     })
     .catch(err => {
-      document.querySelector("#apod-section").innerHTML = `<p>Unable to load NASA APOD (${err.message})</p>`;
+      document.querySelector("#apod-section").innerHTML = `<p>Unable to load (${err.message})</p>`;
     });
 }
 
