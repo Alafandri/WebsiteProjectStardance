@@ -1,6 +1,6 @@
 # Stardance
 
-A cutting-edge web experience powered by **Three.js** and **Vite**, featuring modern web technologies.
+A web experience powered by **Three.js** and **Vite**, featuring modern web technologies.
 
 ## Features
 
