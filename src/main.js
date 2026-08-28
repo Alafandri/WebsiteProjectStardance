@@ -13,7 +13,7 @@ function initUI() {
     <h1 id="clock" class="clock">00:00:00</h1>
 
     <div class="search-container">
-      <input id="searchbar" class="search-input" placeholder="Search web (Press '/' to focus)" />
+      <input id="searchbar" class="search-input" placeholder="Search web" />
     </div>
 
     <div class="grid">
